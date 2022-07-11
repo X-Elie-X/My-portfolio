@@ -1,11 +1,12 @@
 # Portfolio
 
-> this my porfolio mobile version
+> this my porfolio mobile and desktop version
 
 ## Built With
 
 - HTML
 - CSS
+- Media
 
 ## Live Demo (if available)
 
