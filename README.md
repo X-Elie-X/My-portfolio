@@ -1,15 +1,16 @@
 # Portfolio
 
-> this my porfolio mobile version
+> this my porfolio mobile and desktop version
 
 ## Built With
 
 - HTML
 - CSS
+- Media
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://x-elie-x.github.io/)
 
 ## Getting Started
 
