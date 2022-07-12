@@ -201,9 +201,9 @@ hr {
 }
 
 .effect:hover {
-  background: #fff5e1;
+  background: #fff;
   border: 1px solid #f55800;
-  color: #f55800;
+  color: #c35000;
   transition: 0.5s;
 }
 
