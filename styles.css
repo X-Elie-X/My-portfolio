@@ -78,7 +78,7 @@ nav {
   width: 330px;
   font-weight: 400;
   font-size: 56px;
-  color: #ff6b00;
+  color: #c35000;
 }
 
 .dev {
@@ -116,7 +116,7 @@ nav {
 }
 
 .social-media > a:hover {
-  border-bottom: 1px solid #ff6b00;
+  border-bottom: 1px solid #c35000;
 }
 
 .works {
@@ -192,7 +192,7 @@ hr {
 .btn {
   color: #fff;
   align-self: flex-start;
-  background-color: #ff6b00;
+  background-color: #c35000;
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
@@ -201,9 +201,9 @@ hr {
 }
 
 .effect:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
+  background: #fff;
+  border: 1px solid #c35000;
+  color: #c35000;
   transition: 0.5s;
 }
 
@@ -285,7 +285,7 @@ hr {
 
 .project-btn {
   color: #fff;
-  background-color: #ff6b00;
+  background-color: #c35000;
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
@@ -339,7 +339,7 @@ hr {
   padding: 12px;
   gap: 10px;
   width: 161px;
-  background: #ff6b00;
+  background: #c35000;
   border: none;
   margin-bottom: 209px;
   margin-left: 24px;
