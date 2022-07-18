@@ -67,7 +67,7 @@ nav {
   color: #f4f1f0;
 }
 
-.nav-b  .names {
+.nav-b .names {
   display: none;
   list-style: none;
   display: flex;
@@ -121,20 +121,20 @@ nav {
   padding-bottom: 50px;
 }
 
-.social-media  li {
+.social-media li {
   list-style-type: none;
   padding: 10px;
 }
 
-.social-media  a {
+.social-media a {
   margin-right: 15px;
 }
 
-.social  li  a {
+.social li a {
   padding: 10px;
 }
 
-.social-media  a:hover {
+.social-media a:hover {
   border-bottom: 1px solid #c35000;
 }
 
@@ -198,7 +198,7 @@ hr {
   padding-bottom: 20px;
 }
 
-.categories  li {
+.categories li {
   font-size: 15px;
   font-family: "Inter", sans-serif;
   color: #091e42;

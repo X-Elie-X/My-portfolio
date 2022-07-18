@@ -1,6 +1,6 @@
 const mobileMenu = () => {
-  let x = document.getElementById('listinfo');
-  let icon = document.getElementById('menu-icon');
+  const x = document.getElementById('listinfo');
+  const icon = document.getElementById('menu-icon');
   if (x.style.display === 'block') {
     icon.innerHTML = '<i class="fa fa-bars 2x"></i>'; 
     x.style.display = 'none';
