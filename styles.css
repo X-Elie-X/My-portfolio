@@ -63,8 +63,27 @@ nav {
   padding: 12px 24px;
 }
 
+.nam {
+  color: #f4f1f0;
+}
+
 .nav-b > .names {
   display: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-b .names li {
+  padding: 7px 0 7px 0;
+  margin: 2px;
+}
+
+.nav-b .names li a {
+  text-decoration: none;
+  color: #f4f1f0;
 }
 
 .intro {
