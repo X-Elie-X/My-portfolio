@@ -67,7 +67,7 @@ nav {
   color: #f4f1f0;
 }
 
-.nav-b > .names {
+.nav-b  .names {
   display: none;
   list-style: none;
   display: flex;
@@ -121,20 +121,20 @@ nav {
   padding-bottom: 50px;
 }
 
-.social-media > li {
+.social-media  li {
   list-style-type: none;
   padding: 10px;
 }
 
-.social-media > a {
+.social-media  a {
   margin-right: 15px;
 }
 
-.social > li > a {
+.social  li  a {
   padding: 10px;
 }
 
-.social-media > a:hover {
+.social-media  a:hover {
   border-bottom: 1px solid #c35000;
 }
 
@@ -198,7 +198,7 @@ hr {
   padding-bottom: 20px;
 }
 
-.categories > li {
+.categories  li {
   font-size: 15px;
   font-family: "Inter", sans-serif;
   color: #091e42;
@@ -237,7 +237,7 @@ hr {
   border: none;
 }
 
-.categories > a:hover {
+.categories  a:hover {
   border-bottom: 1px solid #ff6b00;
 }
 
@@ -283,14 +283,14 @@ hr {
   margin-right: 16px;
 }
 
-.project > ul {
+.project  ul {
   display: flex;
   gap: 12px;
   margin-left: 16px;
   margin-right: 16px;
 }
 
-.project > ul > li {
+.project  ul  li {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -330,7 +330,7 @@ hr {
   background-color: #1c1a19;
 }
 
-.about > h3 {
+.about  h3 {
   font-family: "Crete Round", serif;
   font-size: 72px;
   color: #ff6b00;
@@ -340,7 +340,7 @@ hr {
   margin-right: 24px;
 }
 
-.about > p {
+.about  p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -350,7 +350,7 @@ hr {
   margin-right: 24px;
 }
 
-.about > button {
+.about  button {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -365,11 +365,11 @@ hr {
   margin-right: 190px;
 }
 
-.about > button:hover {
+.about  button:hover {
   border-bottom: 2px solid #ff4500;
 }
 
-.about > ul {
+.about  ul {
   text-align: center;
 }
 
@@ -391,7 +391,7 @@ hr {
   margin-bottom: 44.73px;
 }
 
-.lang > ul > li {
+.lang  ul  li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -409,7 +409,7 @@ hr {
   margin-bottom: 44px;
 }
 
-.frame > ul > li {
+.frame  ul  li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -427,7 +427,7 @@ hr {
   margin-bottom: 44px;
 }
 
-.skill > ul > li {
+.skill  ul  li {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -458,7 +458,7 @@ form {
   list-style-type: none;
 }
 
-form > ul > li > input {
+form  ul  li  input {
   list-style-type: none;
   border-style: none;
   width: 295px;
@@ -467,11 +467,11 @@ form > ul > li > input {
   margin-right: 40px;
 }
 
-.contact-form > form > ul > li {
+.contact-form  form  ul  li {
   list-style-type: none;
 }
 
-input > hr {
+input  hr {
   margin-top: 14px;
 }
 
