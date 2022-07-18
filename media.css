@@ -23,6 +23,7 @@
     font-size: 20px;
     text-decoration: none;
     margin-left: 154px;
+    margin-top: 25px;
   }
 
   .nav-b .nam {
@@ -39,6 +40,11 @@
     margin-right: 156px;
     list-style-type: none;
     flex-direction: row;
+    margin-top: 5px;
+  }
+
+  .nav-b .hrlist {
+    display: none;
   }
 
   .nav-b .message {

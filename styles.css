@@ -73,6 +73,24 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #fff5e1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 100px;
+  margin-left: -80px;
+}
+
+.nav-b .hrlist {
+  height: 1px;
+  background: #6f6c6b;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: 285px;
+  margin-left: -10px;
 }
 
 .nav-b .message {
@@ -166,7 +184,7 @@ nav {
 
 .nav-b .names li a {
   text-decoration: none;
-  color: #f4f1f0;
+  color: #fff5e1;
 }
 
 .intro {
