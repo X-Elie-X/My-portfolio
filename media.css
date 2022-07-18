@@ -38,6 +38,11 @@
     gap: 32px;
     margin-right: 156px;
     list-style-type: none;
+    flex-direction: row;
+  }
+
+  .nav-b .message {
+    display: block;
   }
 
   .intro {

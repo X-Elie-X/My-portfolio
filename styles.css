@@ -75,9 +75,93 @@ nav {
   align-items: center;
 }
 
+.nav-b .message {
+  display: none;
+}
+
+.social-media li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.categories li {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #091e42;
+  list-style-type: none;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
+}
+
+.project ul li {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  list-style-type: none;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-bottom: 22px;
+}
+
+.lang ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
+  list-style-type: none;
+}
+
+.frame ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
+  list-style-type: none;
+}
+
+.skill ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px;
+  color: #fff;
+  list-style-type: none;
+}
+
+.contact-form form ul li {
+  list-style-type: none;
+}
+
 .nav-b .names li {
   padding: 7px 0 7px 0;
   margin: 2px;
+}
+
+.social-media a {
+  margin-right: 15px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.social li a {
+  padding: 10px;
+}
+
+.social-media a:hover {
+  border-bottom: 1px solid #c35000;
+}
+
+.categories a:hover {
+  border-bottom: 1px solid #ff6b00;
 }
 
 .nav-b .names li a {
@@ -112,29 +196,6 @@ nav {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-}
-
-.social-media {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 50px;
-}
-
-.social-media li {
-  list-style-type: none;
-  padding: 10px;
-}
-
-.social-media a {
-  margin-right: 15px;
-}
-
-.social li a {
-  padding: 10px;
-}
-
-.social-media a:hover {
-  border-bottom: 1px solid #c35000;
 }
 
 .works {
@@ -197,16 +258,6 @@ hr {
   padding-bottom: 20px;
 }
 
-.categories li {
-  font-size: 15px;
-  font-family: "Inter", sans-serif;
-  color: #091e42;
-  list-style-type: none;
-  padding: 10px 12px;
-  background: #fff;
-  border: 1px solid #8993a4;
-}
-
 .btn {
   color: #fff;
   align-self: flex-start;
@@ -236,13 +287,8 @@ hr {
   border: none;
 }
 
-.categories a:hover {
-  border-bottom: 1px solid #ff6b00;
-}
-
 .projects {
   display: grid;
-  grid-template-columns: 1;
   grid-template-rows: repeat(6, 1fr);
   gap: 24px;
   margin-top: 24px;
@@ -287,18 +333,6 @@ hr {
   gap: 12px;
   margin-left: 16px;
   margin-right: 16px;
-}
-
-.project ul li {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-  list-style-type: none;
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.24);
-  margin-bottom: 22px;
 }
 
 .project-btn {
@@ -390,15 +424,6 @@ hr {
   margin-bottom: 44.73px;
 }
 
-.lang ul li {
-  font-family: "Inter", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  margin: 32px;
-  color: #fff;
-  list-style-type: none;
-}
-
 .frame {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -408,15 +433,6 @@ hr {
   margin-bottom: 44px;
 }
 
-.frame ul li {
-  font-family: "Inter", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  margin: 32px;
-  color: #fff;
-  list-style-type: none;
-}
-
 .skill {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -424,15 +440,6 @@ hr {
   color: #fff;
   list-style-type: none;
   margin-bottom: 44px;
-}
-
-.skill ul li {
-  font-family: "Inter", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  margin: 32px;
-  color: #fff;
-  list-style-type: none;
 }
 
 .contact-form {
@@ -464,10 +471,6 @@ form ul li input {
   height: 18px;
   margin-left: 40px;
   margin-right: 40px;
-}
-
-.contact-form form ul li {
-  list-style-type: none;
 }
 
 input hr {
