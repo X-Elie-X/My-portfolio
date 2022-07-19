@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="media.css" />
   </head>
@@ -12,13 +18,26 @@
     <header class="header">
       <nav class="nav-b">
         <a href="#" class="name">Elie Harfouche</a>
-        <a href="#" class="nam"><img src="./img/Union.png" alt="Menu" /></a>
-        <ul class="names">
-          <li>Portoflio</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li><img src="./img/un.png" alt="Message" /></li>
+        <ul class="names" id="listinfo">
+          <li><a href="#titels" class="lists">Portoflio</a></li>
+          <li>
+            <hr class="hrlist" />
+          </li>
+          <li><a href="#about" class="lists">About</a></li>
+          <li><hr class="hrlist" /></li>
+          <li>
+            <a href="#contact-form" class="lists">Contact</a>
+          </li>
+          <li><hr class="hrlist" /></li>
+          <li>
+            <a href="#Contact"
+              ><img src="./img/un.png" alt="Message" class="message"
+            /></a>
+          </li>
         </ul>
+        <a href="javascript:void(0);" class="nam" id="menu-icon"
+          ><i class="fa fa-bars 2x"></i
+        ></a>
       </nav>
     </header>
     <main>
@@ -50,6 +69,7 @@
       </ul>
     </main>
     <div class="titels">
+      <a id="titels"></a>
       <h2 class="titel">My Recent Works</h2>
       <hr />
       <img src="./img/Vector4.png" alt="project" class="titells" />
@@ -223,6 +243,7 @@
       </div>
     </section>
     <section class="about">
+      <a id="about"></a>
       <h3>About me</h3>
       <p>
         Hello I’m a software developer! I can help you build a product , feature
@@ -266,6 +287,7 @@
       </ul>
     </section>
     <section class="contact-form">
+      <a id="contact-form"></a>
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
@@ -398,5 +420,6 @@
       </li>
     </ul>
     <hr class="hr3" />
+    <script src="main.js"></script>
   </body>
 </html>
