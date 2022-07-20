@@ -8,7 +8,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid green; */
 }
 
 body {
@@ -111,6 +110,18 @@ nav {
   padding: 10px 12px;
   background: #fff;
   border: 1px solid #8993a4;
+}
+
+.popuplist li {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #3c3a39;
+  list-style-type: none;
+  padding: 12px 12px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  margin-left: 10px;
 }
 
 .project ul li {
@@ -556,20 +567,6 @@ img:hover {
   transform: scale(0.7);
 }
 
-/* #overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #00000099;
-  cursor: pointer;
-  z-index: 1;
-} */
-
 .popup {
   display: none;
   position: fixed;
@@ -605,18 +602,6 @@ img:hover {
   width: 100%;
   gap: 12px;
   padding-bottom: 20px;
-}
-
-.popuplist li {
-  font-size: 13px;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  color: #3c3a39;
-  list-style-type: none;
-  padding: 12px 12px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  margin-left: 10px;
 }
 
 .snap {
@@ -669,11 +654,13 @@ img:hover {
     opacity: 0;
     transform: scale(1);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
   }
 }
+
 .hide-popup {
   opacity: 0;
   animation: hide 0.25s;
@@ -684,6 +671,7 @@ img:hover {
     opacity: 1;
     transform: scale(1);
   }
+
   to {
     opacity: 0;
     transform: scale(0);
