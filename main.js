@@ -1,6 +1,6 @@
 const listInfo = document.getElementById('listinfo');
 const icon = document.getElementById('menu-icon');
-const btn = document.querySelectorAll('#btn');
+const btn = document.querySelectorAll('.pop-modal');
 const popup = document.getElementById('popup1');
 const close = document.querySelector('#close-popup');
 function mobileMenu() {
