@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 body {
@@ -75,7 +75,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #fff5e1;
   font-style: normal;
   font-weight: 700;
@@ -105,7 +105,7 @@ nav {
 
 .categories li {
   font-size: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #091e42;
   list-style-type: none;
   padding: 10px 12px;
@@ -114,7 +114,7 @@ nav {
 }
 
 .project ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -126,7 +126,7 @@ nav {
 }
 
 .lang ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 32px;
@@ -135,7 +135,7 @@ nav {
 }
 
 .frame ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 32px;
@@ -144,7 +144,7 @@ nav {
 }
 
 .skill ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 32px;
@@ -195,7 +195,7 @@ nav {
 }
 
 .heading {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   width: 330px;
   font-weight: 400;
   font-size: 56px;
@@ -206,12 +206,12 @@ nav {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff5e1;
 }
 
 .info {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -231,7 +231,7 @@ nav {
   margin-top: 120px;
   margin-bottom: 24px;
   width: 90%;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 40px;
   color: #1c1a19;
 }
@@ -252,7 +252,7 @@ hr {
 
 .post {
   width: 327px;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
@@ -263,7 +263,7 @@ hr {
 .info1 {
   width: 327px;
   font-weight: 400;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
@@ -284,7 +284,7 @@ hr {
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: none;
 }
 
@@ -324,7 +324,7 @@ hr {
 }
 
 .project h3 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
@@ -336,7 +336,7 @@ hr {
 }
 
 .project p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -360,7 +360,7 @@ hr {
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: none;
 }
 
@@ -383,7 +383,7 @@ hr {
 }
 
 .about h3 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   color: #ff6b00;
   margin-top: 120px;
@@ -393,7 +393,7 @@ hr {
 }
 
 .about p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -403,7 +403,7 @@ hr {
 }
 
 .about button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
@@ -434,7 +434,7 @@ hr {
 }
 
 .lang {
-  font-family: "Meera Inimai", sans-serif;
+  font-family: 'Meera Inimai', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #fff;
@@ -444,7 +444,7 @@ hr {
 }
 
 .frame {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #fff;
@@ -453,7 +453,7 @@ hr {
 }
 
 .skill {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #fff;
@@ -466,7 +466,7 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: #172b4d;
@@ -555,20 +555,39 @@ textarea:hover {
 img:hover {
   transform: scale(0.7);
 }
-.popup {
-  /* opacity: 0;
+
+/* #overlay {
   position: fixed;
-  z-index: 1; */
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000099;
+  cursor: pointer;
+  z-index: 1;
+} */
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
   width: 343px;
-  height: 718px;
-  margin-left: 15px;
-  top: 60px;
-  /* background-color: #fff; */
-  background-color: aquamarine;
+  height: 100%;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
 }
+
 .popup-post {
   height: 82px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -576,16 +595,22 @@ img:hover {
   color: #172b4d;
   margin-left: 10px;
 }
+
+.popup-posts {
+  display: none;
+}
+
 .popuplist {
   display: flex;
   width: 100%;
   gap: 12px;
   padding-bottom: 20px;
 }
+
 .popuplist li {
   font-size: 13px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #3c3a39;
   list-style-type: none;
   padding: 12px 12px;
@@ -593,14 +618,20 @@ img:hover {
   border: 1px solid #dfe1e6;
   margin-left: 10px;
 }
+
+.snap {
+  display: none;
+}
+
 .snapshoot {
   width: 344px;
   height: 220px;
   top: 170px;
   margin-left: 16px;
 }
-.popup-info {
-  font-family: "Inter", sans-serif;
+
+.snapshoot .popup-info {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -610,6 +641,11 @@ img:hover {
   text-align: start;
   margin-left: 10px;
 }
+
+.popup-info2 {
+  display: none;
+}
+
 .popup-btn {
   margin-top: 16px;
   align-items: center;
@@ -618,15 +654,16 @@ img:hover {
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: none;
   margin-left: 25px;
-  margin-bottom: 20px;
 }
+
 .show-popup {
   opacity: 1;
   animation: show 0.2s;
 }
+
 @keyframes show {
   from {
     opacity: 0;
@@ -652,8 +689,15 @@ img:hover {
     transform: scale(0);
   }
 }
+
 .close-popup {
-  color: #67798e;
   margin-top: 20px;
   margin-left: 300px;
+  border: none;
+  background-color: #fff;
+  color: #67798e;
+}
+
+.close-popup:hover {
+  transform: scale(2);
 }
