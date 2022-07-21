@@ -314,16 +314,15 @@ const form1 = document.getElementById('contact-form');
 const errorElement = document.getElementById('error1');
 
 form1.addEventListener('submit', (e) => {
-  const messages1 = [];
-  if (email1.value) {
-    messages1.push('lower case is required the form is not sent!!!');
+  let messages1 = '';
+  if (email1.value !== email1.value.toLowerCase()) {
+    messages1 = 'lower case is required the form is not sent!!!';
   } else {
-    messages1.push('The form is sent.');
+    messages1 = 'The form is sent.';
   }
-
   if (messages1.length > 0) {
     e.preventDefault();
-    errorElement.innerText = messages1.join(', ');
+    errorElement.innerText = messages1;
   }
 });
 
@@ -331,15 +330,15 @@ const error = document.getElementById('error1');
 const form2 = document.querySelector('#contact-forms');
 const email2 = document.querySelector('#email2');
 form2.addEventListener('submit', (e) => {
-  const messages2 = [];
-  if (email2.value) {
-    messages2.push('lower case is required the form is not sent!!!');
+  let messages2 = '';
+  if (email2.value !== email2.value.toLowerCase()) {
+    messages2 = 'lower case is required the form is not sent!!!';
   } else {
-    messages2.push('The form is sent.');
+    messages2 = 'The form is sent.';
   }
 
   if (messages2.length > 0) {
     e.preventDefault();
-    error.innerText = messages2.join(', ');
+    error.innerText = messages2;
   }
 });
