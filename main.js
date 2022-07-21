@@ -48,7 +48,7 @@ div.innerHTML = projects
     See Project
   </button>
 </div>
-</section>`,
+</section>`
   )
   .join('');
 const projects1 = [
@@ -136,7 +136,7 @@ div1.innerHTML = projects1
           See Project
         </button>
       </div>
-    </section>`,
+    </section>`
   )
   .join('');
 
@@ -217,7 +217,7 @@ div2.innerHTML = projects2
       <li>${project2.technologies2[2]}</li>
       </ul>
     </div>
-  </section>`,
+  </section>`
   )
   .join('');
 
@@ -283,7 +283,7 @@ div3.innerHTML = projects3
         See Source<img src="${project3.image3[3]}" alt="seesourcce" />
       </button>
     </div>
-  </section>`,
+  </section>`
   )
   .join('');
 const modal = document.querySelector('#modal');
@@ -308,3 +308,38 @@ function closePopup() {
 }
 
 closeModalButton.addEventListener('click', closePopup);
+
+const email1 = document.querySelector('#email1');
+const form1 = document.getElementById('contact-form');
+const errorElement = document.getElementById('error1');
+
+form1.addEventListener('submit', (e) => {
+  const messages1 = [];
+  if (email1.value) {
+    messages1.push('lower case is required the form is not sent!!!');
+  } else {
+    messages1.push('The form is sent.');
+  }
+
+  if (messages1.length > 0) {
+    e.preventDefault();
+    errorElement.innerText = messages1.join(', ');
+  }
+});
+
+const error = document.getElementById('error1');
+const form2 = document.querySelector('#contact-forms');
+const email2 = document.querySelector('#email2');
+form2.addEventListener('submit', (e) => {
+  const messages2 = [];
+  if (email2.value) {
+    messages2.push('lower case is required the form is not sent!!!');
+  } else {
+    messages2.push('The form is sent.');
+  }
+
+  if (messages2.length > 0) {
+    e.preventDefault();
+    error.innerText = messages2.join(', ');
+  }
+});

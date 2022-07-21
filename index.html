@@ -126,12 +126,12 @@
       </ul>
     </section>
     <section class="contact-form">
-      <a id="contact-form"></a>
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </h2>
-      <form action="https://formspree.io/f/xrgjweoj" method="POST">
+      <form id="contact-form">
+        <!-- action="https://formspree.io/f/xrgjweoj" method="POST" -->
         <ul class="input-control">
           <li>
             <input
@@ -140,6 +140,7 @@
               maxlength="30"
               id="username"
               placeholder="Full name"
+              required
             />
           </li>
           <li><hr /></li>
@@ -163,7 +164,7 @@
             ></textarea>
           </li>
         </ul>
-        <small id="message1"></small>
+        <small id="error1"></small>
         <button type="submit" class="effect project-btn">Get in touch</button>
       </form>
       <hr class="hr" />
@@ -190,13 +191,11 @@
       I'm always interested in hearing about new projects, so if you'd like to
       chat please get in touch.
     </h2>
-    <section class="contact-forms" id="contact-forms">
+    <section class="contact-forms">
       <h3>.</h3>
-      <form
-        action="https://formspree.io/f/xrgjweoj"
-        method="POST"
-        class="forms"
-      >
+      <form class="forms" id="contact-forms">
+        <!-- action="https://formspree.io/f/xrgjweoj"
+        method="POST" -->
         <ul class="input-control">
           <li>
             <input
@@ -205,6 +204,7 @@
               id="first"
               maxlength="30"
               placeholder="First Name"
+              required
             />
           </li>
           <li><hr class="hr1" /></li>
@@ -215,6 +215,7 @@
               id="last"
               maxlength="30"
               placeholder="Last Name"
+              required
             />
           </li>
           <li><hr class="hr2" /></li>
@@ -224,7 +225,7 @@
               class="email"
               id="email2"
               placeholder="Email address"
-            /><small></small>
+            />
           </li>
           <li><hr class="hr4" /></li>
           <li>
@@ -238,7 +239,7 @@
             ></textarea>
           </li>
         </ul>
-        <small id="message2"></small>
+        <small id="error2"></small>
         <button type="submit" class="effect push">Get in touch</button>
       </form>
       <hr class="hr" />
