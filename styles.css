@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 * {
   box-sizing: border-box;
@@ -74,7 +74,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #fff5e1;
   font-style: normal;
   font-weight: 700;
@@ -104,7 +104,7 @@ nav {
 
 .categories li {
   font-size: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #091e42;
   list-style-type: none;
   padding: 10px 12px;
@@ -112,8 +112,20 @@ nav {
   border: 1px solid #8993a4;
 }
 
+.popuplist li {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #3c3a39;
+  list-style-type: none;
+  padding: 10px 10px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  margin-left: -2px;
+}
+
 .project ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -125,7 +137,7 @@ nav {
 }
 
 .lang ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 32px;
@@ -134,7 +146,7 @@ nav {
 }
 
 .frame ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 32px;
@@ -143,7 +155,7 @@ nav {
 }
 
 .skill ul li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
   margin: 32px;
@@ -194,7 +206,7 @@ nav {
 }
 
 .heading {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   width: 330px;
   font-weight: 400;
   font-size: 56px;
@@ -205,12 +217,12 @@ nav {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff5e1;
 }
 
 .info {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -230,7 +242,7 @@ nav {
   margin-top: 120px;
   margin-bottom: 24px;
   width: 90%;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 40px;
   color: #1c1a19;
 }
@@ -251,7 +263,7 @@ hr {
 
 .post {
   width: 327px;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
@@ -262,7 +274,7 @@ hr {
 .info1 {
   width: 327px;
   font-weight: 400;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
@@ -283,7 +295,7 @@ hr {
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: none;
 }
 
@@ -323,7 +335,7 @@ hr {
 }
 
 .project h3 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
@@ -335,7 +347,7 @@ hr {
 }
 
 .project p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -359,7 +371,7 @@ hr {
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: none;
 }
 
@@ -382,7 +394,7 @@ hr {
 }
 
 .about h3 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   color: #ff6b00;
   margin-top: 120px;
@@ -392,7 +404,7 @@ hr {
 }
 
 .about p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
@@ -402,7 +414,7 @@ hr {
 }
 
 .about button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
@@ -433,7 +445,7 @@ hr {
 }
 
 .lang {
-  font-family: "Meera Inimai", sans-serif;
+  font-family: 'Meera Inimai', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #fff;
@@ -443,7 +455,7 @@ hr {
 }
 
 .frame {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #fff;
@@ -452,7 +464,7 @@ hr {
 }
 
 .skill {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   color: #fff;
@@ -465,7 +477,7 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: #172b4d;
@@ -543,14 +555,114 @@ textarea {
   display: none;
 }
 
-input:hover {
-  transform: translate(2.5rem, 2ex);
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 320px;
+  height: 100vh;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  top: 3%;
+  left: 7%;
 }
 
-textarea:hover {
-  transform: translate(2.5rem, 2ex);
+.popup-post {
+  height: 82px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-left: 5px;
+  margin-top: -30px;
+  margin-bottom: 20px;
 }
 
-img:hover {
-  transform: scale(0.7);
+.popup-posts {
+  display: none;
+}
+
+.popuplist {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 25px;
+  margin-left: 9px;
+}
+
+.snap {
+  display: none;
+}
+
+.snapshoot {
+  width: 300px;
+  height: 220px;
+  top: 170px;
+  margin-left: 4px;
+}
+
+.popup-info {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344563;
+  margin-top: 15px;
+  text-align: start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.popup-info2 {
+  display: none;
+}
+
+.popup-btn {
+  align-items: center;
+  color: #fff;
+  background-color: #c35000;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  margin-left: 25px;
+}
+
+.show-popup {
+  opacity: 1;
+  animation: show 0.2s;
+}
+
+.close-popup {
+  margin-top: 20px;
+  margin-left: 300px;
+  border: none;
+  background-color: #fff;
+  color: #67798e;
+}
+
+.close-popup:hover {
+  transform: scale(2);
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  overflow: hidden;
+}
+
+#modal.open {
+  display: block;
+}
+
+#overlay.open {
+  display: block;
 }

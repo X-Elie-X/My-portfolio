@@ -19,7 +19,7 @@
   .name {
     font-weight: 700;
     color: #fff;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     text-decoration: none;
     margin-left: 154px;
@@ -32,7 +32,7 @@
 
   .nav-b .names {
     display: flex;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: #fff;
@@ -66,13 +66,13 @@
   .dev {
     margin-left: 143px;
     font-size: 29px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   .info {
     margin-left: 143px;
     text-size-adjust: 50%;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
     color: #f4f5f7;
     margin-right: 600px;
@@ -176,7 +176,7 @@
     background-color: #c35000;
     font-weight: 700;
     font-size: 17px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     border: none;
     width: 90%;
   }
@@ -196,7 +196,7 @@
   }
 
   .project2 h3 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -208,7 +208,7 @@
   }
 
   .project2 p {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -226,7 +226,7 @@
   }
 
   .project2 ul li {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -247,7 +247,7 @@
   }
 
   .project3 h3 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -259,7 +259,7 @@
   }
 
   .project3 p {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -277,7 +277,7 @@
   }
 
   .project3 ul li {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -298,7 +298,7 @@
   }
 
   .project4 h3 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -310,7 +310,7 @@
   }
 
   .project4 p {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -328,7 +328,7 @@
   }
 
   .project4 ul li {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -349,7 +349,7 @@
   }
 
   .project5 h3 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -361,7 +361,7 @@
   }
 
   .project5 p {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -379,7 +379,7 @@
   }
 
   .project5 ul li {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -400,7 +400,7 @@
   }
 
   .project6 h3 {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -412,7 +412,7 @@
   }
 
   .project6 p {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -430,7 +430,7 @@
   }
 
   .project6 ul li {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -481,7 +481,7 @@
   .h2 {
     display: block;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-top: 40px;
     margin-right: 850px;
     margin-bottom: 30px;
@@ -554,7 +554,7 @@
     width: 122px;
     height: 48px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 24px;
     margin-left: -100px;
   }
@@ -589,6 +589,83 @@
     height: 1px;
     position: relative;
     top: -60px;
-    left: 310px;
+    left: 3px;
   }
+
+  .popup {
+    height: 490px;
+    width: 1156px;
+    left: 50px;
+    top: 35px;
+    background: #fff;
+  }
+
+  .popup-post {
+    display: none;
+  }
+
+  .popup-posts {
+    display: block;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    width: 1056px;
+    height: 40px;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+
+  .snapshoot {
+    display: none;
+  }
+
+  .snap {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .popup-info {
+    display: none;
+  }
+
+  .popup-info2 {
+    display: block;
+    width: 424px;
+    height: 336px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #344563;
+    margin-left: 630px;
+    margin-top: -360px;
+  }
+
+  .close-popup {
+    margin-left: 1100px;
+    border: none;
+    background-color: #fff;
+    color: #67798e;
+  }
+
+  .popup-btns {
+    margin-left: 610px;
+    margin-top: -30px;
+  }
+
+  .popup-btn {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+.popuplist li {
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-left: 12px;
 }
