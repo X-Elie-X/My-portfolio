@@ -666,3 +666,7 @@ textarea {
 #overlay.open {
   display: block;
 }
+
+#error1 {
+  font-size: 15px;
+}
