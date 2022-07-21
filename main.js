@@ -308,3 +308,32 @@ function closePopup() {
 }
 
 closeModalButton.addEventListener('click', closePopup);
+
+const email1 = document.querySelector('#email1');
+const form1 = document.getElementById('contact-form');
+const errorElement = document.getElementById('error1');
+
+form1.addEventListener('submit', (e) => {
+  const messages1 = [];
+  if (email1.value !== email1.value.toLowerCase()) {
+    messages1.push('lower case is required the form is not sent!!!');
+    if (messages1.length > 0) {
+      e.preventDefault();
+      errorElement.innerText = messages1.join();
+    }
+  }
+});
+
+const error = document.getElementById('error2');
+const form2 = document.getElementById('contact-forms');
+const email2 = document.querySelector('#email2');
+form2.addEventListener('submit', (e) => {
+  const messages2 = [];
+  if (email2.value !== email2.value.toLowerCase()) {
+    messages2.push('lower case is required the form is not sent!!!');
+    if (messages2.length > 0) {
+      e.preventDefault();
+      error.innerText = messages2.join();
+    }
+  }
+});
