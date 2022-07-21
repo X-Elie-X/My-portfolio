@@ -113,15 +113,15 @@ nav {
 }
 
 .popuplist li {
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   color: #3c3a39;
   list-style-type: none;
-  padding: 12px 12px;
+  padding: 10px 10px;
   background: #fff;
   border: 1px solid #dfe1e6;
-  margin-left: 10px;
+  margin-left: -2px;
 }
 
 .project ul li {
@@ -555,31 +555,16 @@ textarea {
   display: none;
 }
 
-input:hover {
-  transform: translate(2.5rem, 2ex);
-}
-
-textarea:hover {
-  transform: translate(2.5rem, 2ex);
-}
-
-img:hover {
-  transform: scale(0.7);
-}
-
 .popup {
   display: none;
   position: fixed;
   z-index: 1;
-  width: 343px;
-  height: 100%;
+  width: 320px;
+  height: 100vh;
   scroll-behavior: smooth;
   background-color: #fff;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  bottom: 0;
-  right: 0;
+  top: 3%;
+  left: 7%;
 }
 
 .popup-post {
@@ -590,7 +575,9 @@ img:hover {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-top: -30px;
+  margin-bottom: 20px;
 }
 
 .popup-posts {
@@ -599,9 +586,9 @@ img:hover {
 
 .popuplist {
   display: flex;
-  width: 100%;
-  gap: 12px;
-  padding-bottom: 20px;
+  gap: 10px;
+  padding-bottom: 25px;
+  margin-left: 9px;
 }
 
 .snap {
@@ -609,22 +596,23 @@ img:hover {
 }
 
 .snapshoot {
-  width: 344px;
+  width: 300px;
   height: 220px;
   top: 170px;
-  margin-left: 16px;
+  margin-left: 4px;
 }
 
-.snapshoot .popup-info {
+.popup-info {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   color: #344563;
-  margin-top: 24px;
+  margin-top: 15px;
   text-align: start;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .popup-info2 {
@@ -632,7 +620,6 @@ img:hover {
 }
 
 .popup-btn {
-  margin-top: 16px;
   align-items: center;
   color: #fff;
   background-color: #c35000;
@@ -649,35 +636,6 @@ img:hover {
   animation: show 0.2s;
 }
 
-@keyframes show {
-  from {
-    opacity: 0;
-    transform: scale(1);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.hide-popup {
-  opacity: 0;
-  animation: hide 0.25s;
-}
-
-@keyframes hide {
-  from {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  to {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-
 .close-popup {
   margin-top: 20px;
   margin-left: 300px;
@@ -688,4 +646,23 @@ img:hover {
 
 .close-popup:hover {
   transform: scale(2);
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  overflow: hidden;
+}
+
+#modal.open {
+  display: block;
+}
+
+#overlay.open {
+  display: block;
 }

@@ -225,11 +225,6 @@
     margin: 16px 16px;
   }
 
-  .popuplist li {
-    font-size: 15px;
-    line-height: 20px;
-  }
-
   .project2 ul li {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -594,18 +589,15 @@
     height: 1px;
     position: relative;
     top: -60px;
-    left: 310px;
+    left: 3px;
   }
 
   .popup {
-    height: 731px;
+    height: 490px;
     width: 1156px;
-    scroll-behavior: smooth;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    bottom: 0;
-    right: 0;
+    left: 50px;
+    top: 35px;
+    background: #fff;
   }
 
   .popup-post {
@@ -614,15 +606,16 @@
 
   .popup-posts {
     display: block;
-    width: 1056px;
-    height: 40px;
     font-family: 'Crete Round', serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    margin-left: 14px;
-    margin-bottom: 15px;
+    width: 1056px;
+    height: 40px;
+    margin-top: -30px;
+    margin-left: 20px;
   }
 
   .snapshoot {
@@ -631,10 +624,7 @@
 
   .snap {
     display: block;
-    height: 448px;
-    width: 800px;
-    margin-left: 24px;
-    margin-top: 70px;
+    margin-left: 20px;
   }
 
   .popup-info {
@@ -643,33 +633,39 @@
 
   .popup-info2 {
     display: block;
-    text-align: start;
-    margin-left: 710px;
-    margin-top: -450px;
-    height: 336px;
     width: 424px;
-    font-size: 16px;
-    line-height: 30px;
+    height: 336px;
     font-family: 'Inter', sans-serif;
+    font-style: normal;
     font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
     color: #344563;
+    margin-left: 630px;
+    margin-top: -360px;
   }
 
   .close-popup {
-    margin-top: 25px;
-    margin-left: 1110px;
+    margin-left: 1100px;
     border: none;
     background-color: #fff;
     color: #67798e;
   }
 
   .popup-btns {
-    margin-left: 670px;
-    margin-top: 50px;
+    margin-left: 610px;
+    margin-top: -30px;
   }
 
   .popup-btn {
     width: 150px;
     height: 50px;
   }
+}
+
+.popuplist li {
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-left: 12px;
 }
