@@ -317,12 +317,10 @@ form1.addEventListener('submit', (e) => {
   const messages1 = [];
   if (email1.value !== email1.value.toLowerCase()) {
     messages1.push('lower case is required the form is not sent!!!');
-  } else {
-    messages1.push('The form is sent.');
-  }
-  if (messages1.length > 0) {
-    e.preventDefault();
-    errorElement.innerText = messages1.join();
+    if (messages1.length > 0) {
+      e.preventDefault();
+      errorElement.innerText = messages1.join();
+    }
   }
 });
 
@@ -333,12 +331,9 @@ form2.addEventListener('submit', (e) => {
   const messages2 = [];
   if (email2.value !== email2.value.toLowerCase()) {
     messages2.push('lower case is required the form is not sent!!!');
-  } else {
-    messages2.push('The form is sent.');
-  }
-
-  if (messages2.length > 0) {
-    e.preventDefault();
-    error.innerText = messages2.join();
+    if (messages2.length > 0) {
+      e.preventDefault();
+      error.innerText = messages2.join();
+    }
   }
 });
