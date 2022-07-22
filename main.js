@@ -372,22 +372,31 @@ window.addEventListener('load', () => {
   document.querySelector('.text').value = contactData.message1;
 });
 
-// // localStorage mobile
-// const sendBtn1 = document.getElementById('send1');
-// // const form1 = document.getElementById('contact-form');
-// const email3 = document.querySelector('#email1');
-// const username = document.querySelector('#username');
-// sendBtn1.addEventListener('submit', (e) => {
-//   const email3 = document.querySelector('#email1');
-//   const username = document.querySelector('#username');
-//   username = username.value;
-//   localStorage.setItem('name', username);
-//   email3 = email1.value;
-//   localStorage.setItem('email1', email1);
-//   // e.preventDefault();
-// });
+// localStorage mobile
+const sendBtn1 = document.getElementById('send1');
+// const form1 = document.getElementById('contact-form');
+const email3 = document.querySelector('#email1');
+const username = document.querySelector('#username');
+sendBtn1.addEventListener('submit', (e) => {
+  const email3 = document.querySelector('#email1');
+  const username = document.querySelector('#username');
+  username = username.value;
+  localStorage.setItem('name', username);
+  email3 = email1.value;
+  localStorage.setItem('email1', email1);
+  // e.preventDefault();
+});
 
-// // localStorage descktop
-// const sendBtn2 = document.getElementById('send2');
-// const form2 = document.getElementById('contact-forms');
-// const email2 = document.querySelector('#email2');
+// localStorage descktop
+const sendBtn2 = document.getElementById('send2');
+sendBtn2.addEventListener('submit', (e) => {
+  const email3 = document.querySelector('#email2');
+  const username = document.querySelector('#username');
+  username = username.value;
+  localStorage.setItem('name', username);
+  email3 = email1.value;
+  localStorage.setItem('email2', email3);
+  localStorage.setItem('first', document.querySelector('#first').value);
+  localStorage.setItem('last', document.querySelector('#last').value );
+  // e.preventDefault();
+});
