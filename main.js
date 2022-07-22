@@ -337,3 +337,48 @@ form2.addEventListener('submit', (e) => {
     }
   }
 });
+// localStorage.clear();
+const contactInfo1 = {
+  email: '',
+  username: '',
+  message1: '',
+};
+
+form1.addEventListener('change', () => {
+  contactInfo1.message1 = document.querySelector('#message1').value;
+  contactInfo1.username = document.querySelector('#username').value;
+  contactInfo1.email = document.querySelector('#email1').value;
+  localStorage.setItem('contactInfo1', JSON.stringify(contactInfo1));
+});
+window.addEventListener('load', () => {
+  const contactData = JSON.parse(localStorage.getItem('contactInfo1'));
+  if (contactData) {
+    document.querySelector('#username').value = contactData.username;
+    document.querySelector('#email1').value = contactData.email;
+    document.querySelector('#message1').value = contactData.message1;
+  }
+});
+
+const contactInfo2 = {
+  email2: '',
+  first: '',
+  last: '',
+  message2: '',
+};
+
+form2.addEventListener('change', () => {
+  contactInfo2.first = document.querySelector('#first').value;
+  contactInfo2.last = document.querySelector('#last').value;
+  contactInfo2.email2 = document.querySelector('#email2').value;
+  contactInfo2.message2 = document.querySelector('#message2').value;
+  localStorage.setItem('contactInfo2', JSON.stringify(contactInfo2));
+});
+window.addEventListener('load', () => {
+  const contactData = JSON.parse(localStorage.getItem('contactInfo2'));
+  if (contactData) {
+    document.querySelector('#first').value = contactData.first;
+    document.querySelector('#last').value = contactData.last;
+    document.querySelector('#email2').value = contactData.email2;
+    document.querySelector('#message2').value = contactData.message2;
+  }
+});
