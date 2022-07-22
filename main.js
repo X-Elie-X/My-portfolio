@@ -48,7 +48,7 @@ div.innerHTML = projects
     See Project
   </button>
 </div>
-</section>`,
+</section>`
   )
   .join('');
 const projects1 = [
@@ -136,7 +136,7 @@ div1.innerHTML = projects1
           See Project
         </button>
       </div>
-    </section>`,
+    </section>`
   )
   .join('');
 
@@ -217,7 +217,7 @@ div2.innerHTML = projects2
       <li>${project2.technologies2[2]}</li>
       </ul>
     </div>
-  </section>`,
+  </section>`
   )
   .join('');
 
@@ -283,7 +283,7 @@ div3.innerHTML = projects3
         See Source<img src="${project3.image3[3]}" alt="seesourcce" />
       </button>
     </div>
-  </section>`,
+  </section>`
   )
   .join('');
 const modal = document.querySelector('#modal');
@@ -337,3 +337,57 @@ form2.addEventListener('submit', (e) => {
     }
   }
 });
+// localStorage.clear();
+const contactInfo1 = {
+  email: document.querySelector('#email1').value,
+  username: document.querySelector('#username').value,
+  message1: document.querySelector('.text').value,
+};
+
+const contactInfo2 = {
+  email2: document.querySelector('#email2').value,
+  first: document.querySelector('#first').value,
+  lasst: document.querySelector('#last').value,
+  message2: document.querySelector('.text').value,
+};
+
+form1.addEventListener('change', () => {
+  localStorage.setItem('contactInfo1', JSON.stringify(contactInfo1));
+});
+window.addEventListener('load', () => {
+  const contactData = JSON.parse(localStorage.getItem('contactInfo1'));
+  document.querySelector('#username').value = contactData.username;
+  document.querySelector('#email1').value = contactData.email;
+  document.querySelector('.text').value = contactData.message1;
+});
+
+form2.addEventListener('change', () => {
+  localStorage.setItem('contactInfo2', JSON.stringify(contactInfo2));
+});
+window.addEventListener('load', () => {
+  const contactData = JSON.parse(localStorage.getItem('contactInfo2'));
+  document.querySelector('#first').value = contactData.first;
+  document.querySelector('#last').value = contactData.last;
+  document.querySelector('#email2').value = contactData.email2;
+  document.querySelector('.text').value = contactData.message1;
+});
+
+// // localStorage mobile
+// const sendBtn1 = document.getElementById('send1');
+// // const form1 = document.getElementById('contact-form');
+// const email3 = document.querySelector('#email1');
+// const username = document.querySelector('#username');
+// sendBtn1.addEventListener('submit', (e) => {
+//   const email3 = document.querySelector('#email1');
+//   const username = document.querySelector('#username');
+//   username = username.value;
+//   localStorage.setItem('name', username);
+//   email3 = email1.value;
+//   localStorage.setItem('email1', email1);
+//   // e.preventDefault();
+// });
+
+// // localStorage descktop
+// const sendBtn2 = document.getElementById('send2');
+// const form2 = document.getElementById('contact-forms');
+// const email2 = document.querySelector('#email2');
