@@ -7,6 +7,7 @@
 - HTML
 - CSS
 - Media
+- javascript
 
 ## Live Demo (if available)
 
@@ -20,7 +21,7 @@
 
 - GitHub: [@X-Elie-X](https://github.com/X-Elie-X)
 
-## 🤝 Contributing
+## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
 
