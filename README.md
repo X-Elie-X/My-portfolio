@@ -9,6 +9,12 @@
 - Media
 - javascript
 
+## Site Mockup
+
+![1](img/1.png)
+![2](img/2.png)
+![3](img/3.png)
+
 ## Live Demo (if available)
 
 [Live Demo Link](https://x-elie-x.github.io/My-portfolio/)
@@ -21,7 +27,7 @@
 
 - GitHub: [@X-Elie-X](https://github.com/X-Elie-X)
 
-## 🤝 Contributing 
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
